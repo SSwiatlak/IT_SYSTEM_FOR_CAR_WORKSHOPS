@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Strona-1" id="seSF8aowuh4jenQuSHEg">
-    <mxGraphModel dx="2625" dy="1673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -468,6 +468,9 @@
         </mxCell>
         <mxCell id="tVaWXpuyIT2xgNXq6bq_-288" value="&lt;p style=&quot;line-height: 100%; font-size: 10px; padding-right: 4px; padding-left: 8px; padding-top: 0px;&quot;&gt;&lt;i&gt;dane do EDI&lt;/i&gt;&lt;/p&gt;" style="shape=note;size=16;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=11;fontColor=#666666;align=left;" vertex="1" parent="tVaWXpuyIT2xgNXq6bq_-190">
           <mxGeometry x="520" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tVaWXpuyIT2xgNXq6bq_-499" value="&lt;b&gt;MODA4&lt;/b&gt;. System informatyczny dla serwisu pojazdów.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="300" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

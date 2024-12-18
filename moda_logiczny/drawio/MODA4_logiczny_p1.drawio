@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Strona-1" id="seSF8aowuh4jenQuSHEg">
-    <mxGraphModel dx="1105" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="368" dy="235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -460,8 +460,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tVaWXpuyIT2xgNXq6bq_-286" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=6;" edge="1" parent="tVaWXpuyIT2xgNXq6bq_-190" source="tVaWXpuyIT2xgNXq6bq_-288" target="tVaWXpuyIT2xgNXq6bq_-199">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="tVaWXpuyIT2xgNXq6bq_-286" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=6;" edge="1" parent="tVaWXpuyIT2xgNXq6bq_-190" source="tVaWXpuyIT2xgNXq6bq_-288" target="tVaWXpuyIT2xgNXq6bq_-234">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="540" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tVaWXpuyIT2xgNXq6bq_-287" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#B3B3B3;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endFill=0;endSize=6;" edge="1" parent="tVaWXpuyIT2xgNXq6bq_-190" source="tVaWXpuyIT2xgNXq6bq_-288" target="tVaWXpuyIT2xgNXq6bq_-216">
           <mxGeometry relative="1" as="geometry" />
