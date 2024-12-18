@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Strona-1" id="seSF8aowuh4jenQuSHEg">
-    <mxGraphModel dx="778" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="438" dy="279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -334,7 +334,7 @@
         <mxCell id="jetXucp1hlTVY5Cr0jaR-53" value="niewysłane&lt;br&gt; oczekujące&lt;br&gt; zrealizowane&lt;br&gt; niezrealizowane" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jetXucp1hlTVY5Cr0jaR-52" vertex="1">
           <mxGeometry y="40" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="5jA7poit9OP2pju9-fK0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="5jA7poit9OP2pju9-fK0-1" target="jetXucp1hlTVY5Cr0jaR-22">
+        <mxCell id="5jA7poit9OP2pju9-fK0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="5jA7poit9OP2pju9-fK0-1" target="jetXucp1hlTVY5Cr0jaR-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="185" />
@@ -357,7 +357,7 @@
             <mxPoint x="-14" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jA7poit9OP2pju9-fK0-1" value="&lt;b&gt;Specjalizacja&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5jA7poit9OP2pju9-fK0-1" value="&lt;b&gt;Specjalizacja&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="440" y="80" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5jA7poit9OP2pju9-fK0-2" value="nazwa&lt;div&gt;opis&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5jA7poit9OP2pju9-fK0-1">
