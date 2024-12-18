@@ -325,7 +325,7 @@
         <mxCell id="jetXucp1hlTVY5Cr0jaR-1" value="&lt;div&gt;RodzajStanowiska&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="jetXucp1hlTVY5Cr0jaR-2" value="&lt;span&gt;&lt;/span&gt;nazwa: Varchar(30) {unique}&lt;div&gt;opis: Varchar(4000)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jetXucp1hlTVY5Cr0jaR-1" vertex="1">
+        <mxCell id="jetXucp1hlTVY5Cr0jaR-2" value="&lt;span&gt;&lt;/span&gt;nazwa: Varchar(30) {unique}&lt;div&gt;opis: Varchar(4000) [0..1]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jetXucp1hlTVY5Cr0jaR-1" vertex="1">
           <mxGeometry y="26" width="210" height="44" as="geometry" />
         </mxCell>
         <mxCell id="sx1uJlysNUfRQE76ODdC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=none;startFill=0;" parent="1" source="jetXucp1hlTVY5Cr0jaR-3" target="jetXucp1hlTVY5Cr0jaR-1" edge="1">
@@ -344,7 +344,7 @@
         <mxCell id="jetXucp1hlTVY5Cr0jaR-3" value="Stanowisko" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="80" width="280" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="jetXucp1hlTVY5Cr0jaR-4" value="numerStanowiska: Varchar(10) {unique}&lt;span&gt;&lt;/span&gt;&lt;div&gt;opis: Varchar(4000)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jetXucp1hlTVY5Cr0jaR-3" vertex="1">
+        <mxCell id="jetXucp1hlTVY5Cr0jaR-4" value="numerStanowiska: Varchar(10) {unique}&lt;span&gt;&lt;/span&gt;&lt;div&gt;opis: Varchar(4000)&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;[0..1]&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jetXucp1hlTVY5Cr0jaR-3" vertex="1">
           <mxGeometry y="26" width="280" height="44" as="geometry" />
         </mxCell>
         <mxCell id="sx1uJlysNUfRQE76ODdC-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;endArrow=none;endFill=0;startArrow=none;startFill=0;" parent="1" source="sx1uJlysNUfRQE76ODdC-12" target="jetXucp1hlTVY5Cr0jaR-22" edge="1">
