@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97115663-31FB-AFD1-E8D4-D156C13AF9F4" name="CZESC">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:14:03 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAZWA" id="FE176EC7-DF24-44B6-177A-21BE216D32FF">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:16:04 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMER_OEM" id="AE273C15-A9D1-76ED-819A-79A8057344CE">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:16:04 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPIS" id="30558B8D-EAB0-42E7-4ACB-624DC7343725">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:16:04 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D12B71C6-6354-0064-BC02-E7DEDB2D5952" name="CZESC_NUMER_OEM_U">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:38:38 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE273C15-A9D1-76ED-819A-79A8057344CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

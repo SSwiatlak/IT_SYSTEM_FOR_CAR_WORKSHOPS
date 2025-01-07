@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88D1B396-3E21-3F4E-D20F-6AC25EF53D91" name="ZESPOL">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:39:17 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZESPOLU" id="292908BA-2E13-8263-95BE-94D199F5C54C">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 13:00:45 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F828FCFE-25DD-B2BD-C9D2-7A7EF2C0230F" name="ZESPÓŁ_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 13:00:45 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="292908BA-2E13-8263-95BE-94D199F5C54C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

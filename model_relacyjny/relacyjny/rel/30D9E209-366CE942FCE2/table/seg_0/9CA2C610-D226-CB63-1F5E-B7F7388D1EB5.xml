@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CA2C610-D226-CB63-1F5E-B7F7388D1EB5" name="USZKODZENIE">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:40:49 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOKALIZACJA" id="0459991B-2210-3F51-8124-2A15E29499D6">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:40:49 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPIS" id="9EDD15E7-F75E-DD13-F5AC-632000FFEB68">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:40:49 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRZYJECIA" id="7BB69DE4-A988-0A41-D1B1-2B4E1495A735">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 12:52:00 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C007A98A-C4C2-D644-8A9F-8812B03EC987" referredColumn="6340B71D-CF8B-E267-CD69-481598F17930"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34E79978-3D8D-5227-27F0-E842BDED4D35" name="USZKODZENIE_KSIAZKA_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 12:52:00 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BB69DE4-A988-0A41-D1B1-2B4E1495A735"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5618D5A6-6333-525B-5C59-6CAAFF9DDA5F" name="KSIAZKA_SERWISOWA">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:05:58 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRZYJECIA" id="6340B71D-CF8B-E267-CD69-481598F17930">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 12:51:21 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_PRZYJECIA" id="C6F98C8B-E7C1-F35C-AFB6-A82DD6241A3E">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:07:22 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_WYDANIA" id="F94994F1-A2D5-1A7D-3FAB-17E122EB7B44">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:07:22 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRZEBIEG" id="4AD834FD-2726-EDD0-E340-A996B283BCCE">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:10:15 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMER_VIN" id="50DCCF4A-F7C6-2B36-5B8A-610DAB0C062C">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 12:34:01 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5297FC0B-2C01-01BE-CBAE-B15CAC860313" referredColumn="40D1EF56-6111-9573-198F-71389EF7FE84"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46D8A203-E4C4-9ED4-7209-BDC5AC00EE90" name="KSIAZKA_SERWISOWA_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 12:51:29 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6340B71D-CF8B-E267-CD69-481598F17930"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4331BECF-C2B6-DF46-9E34-48C99A835CDB" name="KSIAZKA_POJAZD_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 12:34:01 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50DCCF4A-F7C6-2B36-5B8A-610DAB0C062C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

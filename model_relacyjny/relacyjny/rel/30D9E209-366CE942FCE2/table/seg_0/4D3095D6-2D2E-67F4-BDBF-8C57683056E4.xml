@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D3095D6-2D2E-67F4-BDBF-8C57683056E4" name="KLIENT">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:52:46 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KLIENTA" id="EAAA4915-4D44-F6B7-07FA-2B85B8F89B87">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:52:46 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRACOWNIKv1_ID_PRACOWNIKA</notNullConstraintName>
+</Column>
+<Column name="NAZWISKO" id="36C40E9C-51D4-C413-A798-9C2DABB45864">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:52:46 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRACOWNIKv1_NAZWSIKO</notNullConstraintName>
+</Column>
+<Column name="IMIE" id="9E818731-24A8-3B16-5439-FE9C4A92CBED">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:52:46 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMER_TELEFONU" id="92D53FC5-25ED-EE57-AE14-4AD8BCCB0EC2">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:52:46 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_PRACOWNIKv1_NR_TEL</notNullConstraintName>
+</Column>
+<Column name="ADRES_EMAIL" id="BEB68430-DF93-152D-1C6D-4CA2161A88B5">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:52:46 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UWAGI" id="834CC165-6398-CDB0-362C-AB5F8FD1E158">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:55:02 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2DB4436-BFE4-7B6A-7F42-370B56286AE7" name="KLIENT_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:52:46 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAAA4915-4D44-F6B7-07FA-2B85B8F89B87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

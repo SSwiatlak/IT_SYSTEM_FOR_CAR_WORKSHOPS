@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2770C8A2-7EF9-22CE-5495-0B85E9285C76" name="PRACOWNIK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:46:02 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRACOWNIKA" id="2FAC376E-2FF5-5108-044F-85DAD9B7417A">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:51:35 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWISKO" id="BA1D010F-C735-217F-9B3E-741824DCA97B">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:51:35 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMIE" id="0CB70C72-25ED-56FE-D63F-BD99CCF458A2">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:51:35 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUGIE_IMIE" directorySegmentName="seg_0" id="39B3601A-9992-4785-DB59-369CDE93D5CE">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:56:35 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESEL" directorySegmentName="seg_0" id="E13987E7-7BC5-C306-6D0D-D08F489BFF39">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:56:35 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMER_TELEFONU" id="38380139-64D0-1FBA-012E-770CF8346430">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:51:35 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRES_EMAIL" id="5BD67DF2-471C-5CD8-F547-E2E9CBA4AF89">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:51:35 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D6833B4-8138-6528-0CCA-143DBC727698" name="PRACOWNIK_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 10:51:35 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EC5103B-1E05-2837-D787-995C0C7040D9" name="PRACOWNIK_PESEL_U">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:48:05 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E13987E7-7BC5-C306-6D0D-D08F489BFF39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
