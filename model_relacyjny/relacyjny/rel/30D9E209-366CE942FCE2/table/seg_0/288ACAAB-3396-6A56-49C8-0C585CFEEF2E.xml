@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="288ACAAB-3396-6A56-49C8-0C585CFEEF2E" name="SKLAD_ZESPOLU">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="288ACAAB-3396-6A56-49C8-0C585CFEEF2E" name="CZLONEK_ZESPOLU">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:58:18 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -7,4 +7,58 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZESPOLU" id="0980B000-4641-894D-0CD7-D38A2505E7FC">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:43:23 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84B48C78-81E5-F1EE-2D7D-E213145D2750" referredColumn="292908BA-2E13-8263-95BE-94D199F5C54C"/>
+</associations>
+</Column>
+<Column name="ID_PRACOWNIKA" id="09C4C521-89A1-6E6C-ED92-959D80D9A5E4">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:44:57 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="316DA782-62D7-7319-F6F6-3CDE92F7085C" referredColumn="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="995360AD-0644-D6E0-FA69-FE681DA3252E" name="SKLZEZ_ZESPOL_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:43:23 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0980B000-4641-894D-0CD7-D38A2505E7FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="356D4796-C09F-8709-0179-62BA9FCC0B21" name="SKLZES_PRACOW_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:44:57 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09C4C521-89A1-6E6C-ED92-959D80D9A5E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

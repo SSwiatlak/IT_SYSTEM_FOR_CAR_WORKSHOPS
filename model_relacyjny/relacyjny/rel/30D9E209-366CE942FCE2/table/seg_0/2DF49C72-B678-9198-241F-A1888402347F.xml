@@ -28,5 +28,82 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ID_CZYNNOSCI" id="DE51BD70-D81A-CEBB-7AFF-A8DA8A198B11">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:49:14 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2774DF37-2615-4811-19C6-94E1B681DD40" referredColumn="DE31D68B-84F9-18E4-0F6C-641A483B01BC"/>
+</associations>
+</Column>
+<Column name="ID_ZESPOLU" id="90E5AB0D-A6A3-BAC6-DF09-A3DEFA778B17">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:19:10 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A798E2DE-DE37-9A15-FECF-0104F9BD95B0" referredColumn="292908BA-2E13-8263-95BE-94D199F5C54C"/>
+</associations>
+</Column>
+<Column name="NUMER_STANOWISKA" id="6ECA77F1-BF35-D1C3-F519-2195730DF22E">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:21:54 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE858A98-7C96-DCDE-A1A2-D997D7091F60" referredColumn="4BE33F17-5CD0-5A4E-78C4-AFA12CFF6D49"/>
+</associations>
+</Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B499B5F3-3EA1-982B-AFC7-B7C99926B1B0" name="HARMON_ZESPOL_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:19:10 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90E5AB0D-A6A3-BAC6-DF09-A3DEFA778B17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB41B090-8CF4-EC68-2E02-75E4A1355489" name="HARMON_STANOW_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:21:54 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ECA77F1-BF35-D1C3-F519-2195730DF22E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1A62CFA-8648-CAE9-075C-4744BBCBD68D" name="HARMON_CZYNN_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:49:14 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE51BD70-D81A-CEBB-7AFF-A8DA8A198B11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

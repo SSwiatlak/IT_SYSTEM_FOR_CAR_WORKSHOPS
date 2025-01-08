@@ -48,7 +48,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="34E79978-3D8D-5227-27F0-E842BDED4D35" name="USZKODZENIE_KSIAZKA_FK">
+<ind_PK_UK id="34E79978-3D8D-5227-27F0-E842BDED4D35" name="USZKOD_KSIAZK_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:52:00 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

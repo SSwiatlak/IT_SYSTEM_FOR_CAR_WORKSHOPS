@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58DC36C8-4820-FC9B-C46A-91D4F74AB5FE" name="SPECJALIZACJA_PRACOWNIKA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58DC36C8-4820-FC9B-C46A-91D4F74AB5FE" name="KOMPETENCJA">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:13:16 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -40,7 +40,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A4D215CF-8CD3-E9C9-72A0-E2E6DAD7DD43" name="SPECJALIZACJA_PRACOWNIKA_PK">
+<ind_PK_UK id="A4D215CF-8CD3-E9C9-72A0-E2E6DAD7DD43" name="KOMPET_PK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:22:50 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -52,7 +52,7 @@
 <colUsage columnID="9EE382B5-B86E-67C0-FDEA-11B706B5F1AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AC0358E7-11B9-8840-5A94-E1274298A0DE" name="SPECJALIZACJA_PRACOWNIKA_SPECJALIZACJA_FK">
+<ind_PK_UK id="AC0358E7-11B9-8840-5A94-E1274298A0DE" name="KOMPET_SPECJA_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:18:12 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -62,7 +62,7 @@
 <colUsage columnID="7059386C-DE44-3C2B-64C5-CBA8AF45F9CB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C39651EE-1BCB-F384-2852-6218D68428CB" name="SPECJALIZACJA_PRACOWNIKA_PRACOWNIK_FK">
+<ind_PK_UK id="C39651EE-1BCB-F384-2852-6218D68428CB" name="KOMPET_PRACOW_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:18:53 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

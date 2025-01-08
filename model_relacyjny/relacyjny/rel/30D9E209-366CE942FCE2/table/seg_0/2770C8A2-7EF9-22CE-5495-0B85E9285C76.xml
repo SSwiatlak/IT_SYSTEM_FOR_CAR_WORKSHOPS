@@ -90,7 +90,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4D6833B4-8138-6528-0CCA-143DBC727698" name="PRACOWNIK_PK">
+<ind_PK_UK id="4D6833B4-8138-6528-0CCA-143DBC727698" name="PRACOW_PK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 10:51:35 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -101,7 +101,7 @@
 <colUsage columnID="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1EC5103B-1E05-2837-D787-995C0C7040D9" name="PRACOWNIK_PESEL_U">
+<ind_PK_UK id="1EC5103B-1E05-2837-D787-995C0C7040D9" name="PRACOW_PESEL_UNQ">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:48:05 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

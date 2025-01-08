@@ -19,6 +19,18 @@
 <ownDataTypeParameters>17 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="RODZAJ_POJAZDU" id="713403B2-5138-8422-C358-895EE76D0874">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 12:41:55 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<domain>8A2DC118-F08E-1006-6CE1-997E9B2194C2</domain>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="MARKA" id="757E0130-20F2-7EB2-0161-F50DB6037E0F">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:17:25 UTC</createdTime>
@@ -53,17 +65,6 @@
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_PRACOWNIKv1_PESEL</notNullConstraintName>
-</Column>
-<Column name="RODZAJ_POJAZDU" id="713403B2-5138-8422-C358-895EE76D0874">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 12:41:55 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

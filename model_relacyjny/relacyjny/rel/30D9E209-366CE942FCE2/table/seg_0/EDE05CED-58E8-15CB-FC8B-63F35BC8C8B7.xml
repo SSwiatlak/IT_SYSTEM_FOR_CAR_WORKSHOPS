@@ -12,23 +12,76 @@
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:36:57 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ILOSC" id="449F6494-DE75-5174-0011-CA5D9A787DE5">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:36:57 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT022</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NUMER_ZAMOWIENIA" id="967A812C-B9FB-1C96-E82C-25533A815323">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:01:56 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BB12688-F06D-563F-2BD5-6AAE9F7EAD28" referredColumn="717DD866-3446-20A7-5BE6-CD9FDF1645E2"/>
+</associations>
+</Column>
+<Column name="ID_CZESCI" id="E5482448-5900-F184-9107-68FE3BC15FCF">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:04:37 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2255DE22-8BEA-6B1D-2DD7-3E74DCB01C39" referredColumn="5F69BBD0-47BB-1162-FF42-A2CF3D8508AF"/>
+</associations>
+</Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A73D2E98-FB12-F9CC-FA73-8E81D7B1E636" name="POZZAM_ZAMOW_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:01:56 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="967A812C-B9FB-1C96-E82C-25533A815323"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6C4EB2F-0737-C76C-0EF1-C2B652EE1FB4" name="POZZAM_CZESC_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:04:37 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5482448-5900-F184-9107-68FE3BC15FCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

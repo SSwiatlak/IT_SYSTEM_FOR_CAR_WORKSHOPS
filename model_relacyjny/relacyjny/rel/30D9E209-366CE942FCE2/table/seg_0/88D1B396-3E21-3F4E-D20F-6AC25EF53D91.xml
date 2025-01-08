@@ -21,7 +21,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F828FCFE-25DD-B2BD-C9D2-7A7EF2C0230F" name="ZESPÓŁ_PK">
+<ind_PK_UK id="F828FCFE-25DD-B2BD-C9D2-7A7EF2C0230F" name="ZESPOL_PK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 13:00:45 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65253726-656C-60B7-9BA8-2EB53841F349" containerWithKeyObject="58DC36C8-4820-FC9B-C46A-91D4F74AB5FE" localFKIndex="C39651EE-1BCB-F384-2852-6218D68428CB" name="KOMPET_PRACOW_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="316DA782-62D7-7319-F6F6-3CDE92F7085C" containerWithKeyObject="288ACAAB-3396-6A56-49C8-0C585CFEEF2E" localFKIndex="356D4796-C09F-8709-0179-62BA9FCC0B21" name="SKLZES_PRACOW_FK">
 <createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 12:18:53 UTC</createdTime>
+<createdTime>2025-01-07 23:44:57 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <referredTableLongName>PRACOWNIK</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

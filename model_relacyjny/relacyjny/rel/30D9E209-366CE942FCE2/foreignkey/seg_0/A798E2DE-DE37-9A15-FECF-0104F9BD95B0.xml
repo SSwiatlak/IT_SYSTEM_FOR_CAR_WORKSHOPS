@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A798E2DE-DE37-9A15-FECF-0104F9BD95B0" containerWithKeyObject="2DF49C72-B678-9198-241F-A1888402347F" localFKIndex="B499B5F3-3EA1-982B-AFC7-B7C99926B1B0" name="HARMON_ZESPOL_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:19:10 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<referredTableLongName>ZESPOL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88D1B396-3E21-3F4E-D20F-6AC25EF53D91</referredTableID>
+<keyObject>F828FCFE-25DD-B2BD-C9D2-7A7EF2C0230F</keyObject>
+<referredKeyID>F828FCFE-25DD-B2BD-C9D2-7A7EF2C0230F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ZESPOLU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

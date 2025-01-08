@@ -8,11 +8,21 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOD_CZESCI" id="5F69BBD0-47BB-1162-FF42-A2CF3D8508AF">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:04:07 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="NAZWA" id="FE176EC7-DF24-44B6-177A-21BE216D32FF">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:16:04 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -46,7 +56,18 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D12B71C6-6354-0064-BC02-E7DEDB2D5952" name="CZESC_NUMER_OEM_U">
+<ind_PK_UK id="BEB353FA-0399-164F-52C1-358B62A399AE" name="CZESC_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:04:21 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F69BBD0-47BB-1162-FF42-A2CF3D8508AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D12B71C6-6354-0064-BC02-E7DEDB2D5952" name="CZESC_OEM_UNQ">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:38:38 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

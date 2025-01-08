@@ -4,10 +4,22 @@
 <createdTime>2025-01-07 11:22:52 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <ordsAlias>table_18</ordsAlias>
+<abbreviation>CZYNN</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CZYNNOSCI" id="DE31D68B-84F9-18E4-0F6C-641A483B01BC">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:48:06 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="UWAGI" id="BEE380D7-D92D-9113-4A7B-A2BC0E8244D4">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:23:30 UTC</createdTime>
@@ -20,5 +32,93 @@
 <ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NUMER_ZAMOWIENIA" id="74C0E670-A08E-6AFC-564D-D7A552559311">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 22:59:58 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56AA08D7-259B-69F2-60A8-8D3DAA3D291B" referredColumn="717DD866-3446-20A7-5BE6-CD9FDF1645E2"/>
+</associations>
+</Column>
+<Column name="ID_WIZYTY" id="5E21F2D5-452B-547C-0449-690943B0BD5A">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:30:41 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A9DAF88-482E-653C-91A8-0B1C59FB589F" referredColumn="6340B71D-CF8B-E267-CD69-481598F17930"/>
+</associations>
+</Column>
+<Column name="NAZWA_USLUGI" id="BA904693-08A9-BD07-6FBF-629F99139907">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:33:50 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2BD1B2F-48DB-B44D-FEDA-6C03AF49020F" referredColumn="FABA868A-CAC3-3554-B6D7-549B9B3CF525"/>
+</associations>
+</Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7912D97-80B9-AA88-1AA0-F0D821EC56A0" name="CZYNN_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:48:22 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE31D68B-84F9-18E4-0F6C-641A483B01BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4DE2C26-84E9-44E8-6A77-C309CEFADA40" name="CZYNN_ZAMOW_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 22:59:58 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C0E670-A08E-6AFC-564D-D7A552559311"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71B6A870-A2C0-38AC-FFBD-AB2DD82B114B" name="CZYNN_KSIAZK_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:30:41 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E21F2D5-452B-547C-0449-690943B0BD5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="788022A2-B7B5-1F20-5314-E5C7CCCBB63F" name="CZYNN_USLUGA_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:33:50 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA904693-08A9-BD07-6FBF-629F99139907"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

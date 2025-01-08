@@ -23,7 +23,6 @@
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:26:38 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -34,7 +33,6 @@
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:26:38 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -54,7 +52,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4E1472C8-E5F4-7066-63AE-FE6A081161D8" name="ZAMOWIENIE_PK">
+<ind_PK_UK id="4E1472C8-E5F4-7066-63AE-FE6A081161D8" name="ZAMOW_PK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:26:38 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

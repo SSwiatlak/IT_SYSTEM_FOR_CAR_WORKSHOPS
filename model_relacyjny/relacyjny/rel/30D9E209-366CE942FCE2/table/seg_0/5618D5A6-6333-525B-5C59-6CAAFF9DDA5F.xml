@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_PRZYJECIA" id="6340B71D-CF8B-E267-CD69-481598F17930">
+<Column name="ID_WIZYTY" id="6340B71D-CF8B-E267-CD69-481598F17930">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:51:21 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -65,9 +65,39 @@
 <colAssociation fkAssociation="5297FC0B-2C01-01BE-CBAE-B15CAC860313" referredColumn="40D1EF56-6111-9573-198F-71389EF7FE84"/>
 </associations>
 </Column>
+<Column name="ID_KLIENTA" id="3EA82AD3-A9FC-0BF2-9FA5-721F762CB4B2">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:18:09 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="900356B3-227E-A9F6-ECA8-0DDC4BF3DA07" referredColumn="EAAA4915-4D44-F6B7-07FA-2B85B8F89B87"/>
+</associations>
+</Column>
+<Column name="PRZYJMUJACY" id="B7BA197E-7F4C-2A59-BA6B-E584FF3DAFC3">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:27:59 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A0225A0-6CD5-D486-9999-3620C6B63CB2" referredColumn="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="46D8A203-E4C4-9ED4-7209-BDC5AC00EE90" name="KSIAZKA_SERWISOWA_PK">
+<ind_PK_UK id="46D8A203-E4C4-9ED4-7209-BDC5AC00EE90" name="KSIAZK_PK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:51:29 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -78,7 +108,7 @@
 <colUsage columnID="6340B71D-CF8B-E267-CD69-481598F17930"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4331BECF-C2B6-DF46-9E34-48C99A835CDB" name="KSIAZKA_POJAZD_FK">
+<ind_PK_UK id="4331BECF-C2B6-DF46-9E34-48C99A835CDB" name="KSIAZK_POJAZD_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:34:01 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -86,6 +116,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="50DCCF4A-F7C6-2B36-5B8A-610DAB0C062C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE045A72-7FEC-4201-FFDB-0DBE7A46588F" name="KSIAZK_KLIENT_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:18:09 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA82AD3-A9FC-0BF2-9FA5-721F762CB4B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B6273C6-D03F-6691-90B9-4C45E805F910" name="KSIAZK_PRACOW_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:27:59 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7BA197E-7F4C-2A59-BA6B-E584FF3DAFC3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

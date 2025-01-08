@@ -42,9 +42,9 @@
 <ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RODZAJ" id="E5FD5686-591F-7F59-19A7-82384E122633">
+<Column name="RODZAJ" id="BE3F5ACD-EA74-02EF-7857-859BAE429F01">
 <createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:58:40 UTC</createdTime>
+<createdTime>2025-01-07 23:20:54 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,12 +54,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="62AC0992-13DF-4ED0-4257-DD7383181441" referredColumn="F8EB4BEF-9A0D-A2B6-1C79-7EEC9645BDAB"/>
+<colAssociation fkAssociation="5C600398-2EB3-A1B5-B191-5E5785B8CA0D" referredColumn="F8EB4BEF-9A0D-A2B6-1C79-7EEC9645BDAB"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="CCFA37E2-0D66-8DBB-FDC5-A736C34EA268" name="STANOWISKO_PK">
+<ind_PK_UK id="CCFA37E2-0D66-8DBB-FDC5-A736C34EA268" name="STANOW_PK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:31:27 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -70,14 +70,14 @@
 <colUsage columnID="4BE33F17-5CD0-5A4E-78C4-AFA12CFF6D49"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="105373AB-3A17-1561-C4F2-52DA06DBC983" name="STANOWISKO_RODZAJ_FK">
+<ind_PK_UK id="7A27B882-EFD9-6972-5773-30B8334E5C00" name="STANOW_RODZST_FK">
 <createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:58:40 UTC</createdTime>
+<createdTime>2025-01-07 23:20:54 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E5FD5686-591F-7F59-19A7-82384E122633"/>
+<colUsage columnID="BE3F5ACD-EA74-02EF-7857-859BAE429F01"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

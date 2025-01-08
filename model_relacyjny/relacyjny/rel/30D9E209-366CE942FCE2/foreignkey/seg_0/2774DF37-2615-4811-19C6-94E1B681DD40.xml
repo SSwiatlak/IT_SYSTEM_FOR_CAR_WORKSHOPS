@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2774DF37-2615-4811-19C6-94E1B681DD40" containerWithKeyObject="2DF49C72-B678-9198-241F-A1888402347F" localFKIndex="E1A62CFA-8648-CAE9-075C-4744BBCBD68D" name="HARMON_CZYNN_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:49:14 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<referredTableLongName>CZYNNOSC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C2195F30-754B-E49D-CB61-22406D958EEC</referredTableID>
+<keyObject>B7912D97-80B9-AA88-1AA0-F0D821EC56A0</keyObject>
+<referredKeyID>B7912D97-80B9-AA88-1AA0-F0D821EC56A0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CZYNNOSCI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
