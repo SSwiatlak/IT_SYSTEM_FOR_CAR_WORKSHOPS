@@ -65,7 +65,7 @@
 <ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NUMER_TELEFONU" id="38380139-64D0-1FBA-012E-770CF8346430">
+<Column name="NR_TELEFONU" id="38380139-64D0-1FBA-012E-770CF8346430">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 10:51:35 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -101,7 +101,7 @@
 <colUsage columnID="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1EC5103B-1E05-2837-D787-995C0C7040D9" name="PRACOW_PESEL_UNQ">
+<ind_PK_UK id="1EC5103B-1E05-2837-D787-995C0C7040D9" name="PRACOW_PESEL_UK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:48:05 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

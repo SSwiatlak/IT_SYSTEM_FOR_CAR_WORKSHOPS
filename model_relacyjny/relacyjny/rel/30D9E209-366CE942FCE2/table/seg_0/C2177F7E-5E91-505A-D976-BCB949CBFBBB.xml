@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOD_USLUGI" id="2AE682FF-8543-C522-45C8-E9975FC0E87C">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 15:31:33 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="NAZWA" id="FABA868A-CAC3-3554-B6D7-549B9B3CF525">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:24:30 UTC</createdTime>
@@ -41,7 +52,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FABA868A-CAC3-3554-B6D7-549B9B3CF525"/>
+<colUsage columnID="2AE682FF-8543-C522-45C8-E9975FC0E87C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

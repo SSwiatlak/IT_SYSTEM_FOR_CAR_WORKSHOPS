@@ -8,8 +8,8 @@
 <referredTableID>8D5DD3D8-03A8-1553-331B-EB74C36A63C7</referredTableID>
 <keyObject>4E1472C8-E5F4-7066-63AE-FE6A081161D8</keyObject>
 <referredKeyID>4E1472C8-E5F4-7066-63AE-FE6A081161D8</referredKeyID>
-<mandatory>true</mandatory>
-<refColNames>NUMER_ZAMOWIENIA</refColNames>
+<mandatory>false</mandatory>
+<refColNames>NR_ZAMOWIENIA</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

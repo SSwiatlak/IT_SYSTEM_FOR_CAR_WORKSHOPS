@@ -20,21 +20,6 @@
 <ownDataTypeParameters>,12,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NUMER_ZAMOWIENIA" id="74C0E670-A08E-6AFC-564D-D7A552559311">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 22:59:58 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="56AA08D7-259B-69F2-60A8-8D3DAA3D291B" referredColumn="717DD866-3446-20A7-5BE6-CD9FDF1645E2"/>
-</associations>
-</Column>
 <Column name="ID_WIZYTY" id="5E21F2D5-452B-547C-0449-690943B0BD5A">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:30:41 UTC</createdTime>
@@ -50,19 +35,35 @@
 <colAssociation fkAssociation="8A9DAF88-482E-653C-91A8-0B1C59FB589F" referredColumn="6340B71D-CF8B-E267-CD69-481598F17930"/>
 </associations>
 </Column>
-<Column name="NAZWA_USLUGI" id="BA904693-08A9-BD07-6FBF-629F99139907">
+<Column name="KOD_USLUGI" id="EA06E861-28E8-D762-1F0E-326141FB5364">
 <createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 23:33:50 UTC</createdTime>
+<createdTime>2025-01-09 15:31:51 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
+<dataTypeSize>6 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="C2BD1B2F-48DB-B44D-FEDA-6C03AF49020F" referredColumn="FABA868A-CAC3-3554-B6D7-549B9B3CF525"/>
+<colAssociation fkAssociation="C2BD1B2F-48DB-B44D-FEDA-6C03AF49020F" referredColumn="2AE682FF-8543-C522-45C8-E9975FC0E87C"/>
+</associations>
+</Column>
+<Column name="NR_ZAMOWIENIA" id="74C0E670-A08E-6AFC-564D-D7A552559311">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 22:59:58 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56AA08D7-259B-69F2-60A8-8D3DAA3D291B" referredColumn="717DD866-3446-20A7-5BE6-CD9FDF1645E2"/>
 </associations>
 </Column>
 <Column name="STATUS" id="F3CF85A5-5999-CF49-B4C8-14B290B7F2D8">
@@ -100,6 +101,33 @@
 <colUsage columnID="DE31D68B-84F9-18E4-0F6C-641A483B01BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="25D3A31D-31CA-DFB5-8570-CF524BC71BAA" name="CZYNN_ZAMOW_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:22:40 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C0E670-A08E-6AFC-564D-D7A552559311"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A90BED06-9C53-9D48-7EBA-279B3B980520" name="CZYNN_USLUGA_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:22:40 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA06E861-28E8-D762-1F0E-326141FB5364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="588E0612-8BF6-AFB8-69A2-7DA1CEF3ADCD" name="CZYNN_KSIAZK_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:22:40 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E21F2D5-452B-547C-0449-690943B0BD5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="B4DE2C26-84E9-44E8-6A77-C309CEFADA40" name="CZYNN_ZAMOW_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 22:59:58 UTC</createdTime>
@@ -127,7 +155,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BA904693-08A9-BD07-6FBF-629F99139907"/>
+<colUsage columnID="EA06E861-28E8-D762-1F0E-326141FB5364"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

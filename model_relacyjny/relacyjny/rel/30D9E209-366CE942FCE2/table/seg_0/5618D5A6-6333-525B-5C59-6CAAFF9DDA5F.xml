@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NUMER_VIN" id="50DCCF4A-F7C6-2B36-5B8A-610DAB0C062C">
+<Column name="NR_VIN" id="50DCCF4A-F7C6-2B36-5B8A-610DAB0C062C">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:34:01 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -106,6 +106,33 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6340B71D-CF8B-E267-CD69-481598F17930"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36BFE4E8-89B3-F3D1-5E8F-ACF8323B9301" name="KSIAZK_POJAZD_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:18:29 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50DCCF4A-F7C6-2B36-5B8A-610DAB0C062C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A37DA3D-2677-C4D8-8E36-1A4E05BB0265" name="KSIAZK_KLIENT_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:19:12 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EA82AD3-A9FC-0BF2-9FA5-721F762CB4B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46E4492C-8EC9-8D63-41AF-FCDDDD46A0B5" name="KSIAZK_PRACOW_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:19:12 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7BA197E-7F4C-2A59-BA6B-E584FF3DAFC3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="4331BECF-C2B6-DF46-9E34-48C99A835CDB" name="KSIAZK_POJAZD_FK">

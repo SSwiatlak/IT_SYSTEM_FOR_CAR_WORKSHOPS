@@ -43,7 +43,7 @@
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NUMER_TELEFONU" id="92D53FC5-25ED-EE57-AE14-4AD8BCCB0EC2">
+<Column name="NR_TELEFONU" id="92D53FC5-25ED-EE57-AE14-4AD8BCCB0EC2">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 10:52:46 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

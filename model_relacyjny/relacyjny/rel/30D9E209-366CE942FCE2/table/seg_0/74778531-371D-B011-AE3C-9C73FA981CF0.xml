@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="NUMER_STANOWISKA" id="4BE33F17-5CD0-5A4E-78C4-AFA12CFF6D49">
+<Column name="NR_STANOWISKA" id="4BE33F17-5CD0-5A4E-78C4-AFA12CFF6D49">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:30:17 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -68,6 +68,15 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4BE33F17-5CD0-5A4E-78C4-AFA12CFF6D49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FEA0E4A-F724-56EE-8CAD-39C94DD8188B" name="STANOW_RODZST_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:09:20 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE3F5ACD-EA74-02EF-7857-859BAE429F01"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7A27B882-EFD9-6972-5773-30B8334E5C00" name="STANOW_RODZST_FK">

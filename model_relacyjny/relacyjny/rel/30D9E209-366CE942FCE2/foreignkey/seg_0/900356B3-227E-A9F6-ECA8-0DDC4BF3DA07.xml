@@ -10,7 +10,7 @@
 <referredKeyID>B2DB4436-BFE4-7B6A-7F42-370B56286AE7</referredKeyID>
 <mandatory>true</mandatory>
 <refColNames>ID_KLIENTA</refColNames>
-<transferable>true</transferable>
+<transferable>false</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

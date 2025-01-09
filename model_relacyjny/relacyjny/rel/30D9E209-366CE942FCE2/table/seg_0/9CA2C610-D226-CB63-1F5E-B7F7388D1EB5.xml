@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_PRZYJECIA" id="7BB69DE4-A988-0A41-D1B1-2B4E1495A735">
+<Column name="ID_WIZYTY" id="7BB69DE4-A988-0A41-D1B1-2B4E1495A735">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:52:00 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -48,6 +48,18 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6432CD11-0E7F-746E-A3B7-7451ACBE8A1A" name="USZKOD_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 15:25:15 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BB69DE4-A988-0A41-D1B1-2B4E1495A735"/>
+<colUsage columnID="0459991B-2210-3F51-8124-2A15E29499D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="34E79978-3D8D-5227-27F0-E842BDED4D35" name="USZKOD_KSIAZK_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:52:00 UTC</createdTime>

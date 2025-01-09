@@ -9,8 +9,8 @@
 <keyObject>E34365ED-A73A-50C9-C183-BD278A9B2D56</keyObject>
 <referredKeyID>E34365ED-A73A-50C9-C183-BD278A9B2D56</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>NAZWA</refColNames>
-<transferable>true</transferable>
+<refColNames>KOD_USLUGI</refColNames>
+<transferable>false</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

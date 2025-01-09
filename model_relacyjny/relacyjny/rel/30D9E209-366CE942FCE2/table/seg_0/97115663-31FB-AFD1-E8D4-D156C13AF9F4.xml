@@ -8,15 +8,15 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="KOD_CZESCI" id="5F69BBD0-47BB-1162-FF42-A2CF3D8508AF">
+<Column name="NR_OEM" id="AE273C15-A9D1-76ED-819A-79A8057344CE">
 <createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 23:04:07 UTC</createdTime>
+<createdTime>2025-01-07 11:16:04 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NAZWA" id="FE176EC7-DF24-44B6-177A-21BE216D32FF">
@@ -28,18 +28,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="NUMER_OEM" id="AE273C15-A9D1-76ED-819A-79A8057344CE">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:16:04 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="OPIS" id="30558B8D-EAB0-42E7-4ACB-624DC7343725">
@@ -56,22 +44,12 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BEB353FA-0399-164F-52C1-358B62A399AE" name="CZESC_PK">
+<ind_PK_UK id="B53B74F8-C845-A6E1-AD85-F396608FB151" name="CZESC_PK">
 <createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 23:04:21 UTC</createdTime>
+<createdTime>2025-01-09 15:38:15 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5F69BBD0-47BB-1162-FF42-A2CF3D8508AF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D12B71C6-6354-0064-BC02-E7DEDB2D5952" name="CZESC_OEM_UNQ">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:38:38 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="AE273C15-A9D1-76ED-819A-79A8057344CE"/>

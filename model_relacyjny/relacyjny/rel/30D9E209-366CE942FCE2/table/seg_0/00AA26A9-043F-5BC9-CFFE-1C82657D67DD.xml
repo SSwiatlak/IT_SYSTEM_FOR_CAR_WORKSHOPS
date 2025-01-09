@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SPECJALIZACJI" id="A028586B-C12F-E204-190E-5208D3C8FCD4">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 15:15:36 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="NAZWA" id="6DF6D1FD-6618-E4D7-D843-ABEAE739F0F3">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 10:44:05 UTC</createdTime>
@@ -33,7 +44,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6169F9F5-72E0-9592-FE1A-A6F86B6AFC00" name="SPECJA_PK">
+<ind_PK_UK id="6169F9F5-72E0-9592-FE1A-A6F86B6AFC00" name="SPEC_PK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 10:44:05 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -41,7 +52,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6DF6D1FD-6618-E4D7-D843-ABEAE739F0F3"/>
+<colUsage columnID="A028586B-C12F-E204-190E-5208D3C8FCD4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -38,7 +38,7 @@
 <colAssociation fkAssociation="A798E2DE-DE37-9A15-FECF-0104F9BD95B0" referredColumn="292908BA-2E13-8263-95BE-94D199F5C54C"/>
 </associations>
 </Column>
-<Column name="NUMER_STANOWISKA" id="6ECA77F1-BF35-D1C3-F519-2195730DF22E">
+<Column name="NR_STANOWISKA" id="6ECA77F1-BF35-D1C3-F519-2195730DF22E">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:21:54 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -75,6 +75,36 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08E7D873-CB7E-6876-3BDD-C108ABF08F10" name="HARMON_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 15:48:40 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE51BD70-D81A-CEBB-7AFF-A8DA8A198B11"/>
+<colUsage columnID="6E4F11DF-0E77-EE9A-4BE3-7E28E07F6351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="119A27ED-3B7B-9A27-518C-21DCA1B60625" name="HARMON_STANOW_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:25:01 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ECA77F1-BF35-D1C3-F519-2195730DF22E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDC41F49-AAA5-1896-E534-7A915084A89E" name="HARMON_ZESPOL_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:25:01 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90E5AB0D-A6A3-BAC6-DF09-A3DEFA778B17"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="B499B5F3-3EA1-982B-AFC7-B7C99926B1B0" name="HARMON_ZESPOL_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:19:10 UTC</createdTime>

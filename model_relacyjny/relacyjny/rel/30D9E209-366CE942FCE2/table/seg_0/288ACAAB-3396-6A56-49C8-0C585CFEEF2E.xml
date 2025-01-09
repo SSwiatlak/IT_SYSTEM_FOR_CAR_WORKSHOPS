@@ -40,6 +40,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1783CE8-31D8-FE81-E7FE-C3FA90C4C558" name="CZLON_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 15:54:18 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0980B000-4641-894D-0CD7-D38A2505E7FC"/>
+<colUsage columnID="09C4C521-89A1-6E6C-ED92-959D80D9A5E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9375448C-E063-F235-2884-B3E2B91F5380" name="CZLON_PRACOW_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:23:47 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09C4C521-89A1-6E6C-ED92-959D80D9A5E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="995360AD-0644-D6E0-FA69-FE681DA3252E" name="CZLON_ZESPOL_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:43:23 UTC</createdTime>

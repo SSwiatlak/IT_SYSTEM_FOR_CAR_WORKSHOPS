@@ -8,7 +8,22 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="NUMER_ZAMOWIENIA" id="967A812C-B9FB-1C96-E82C-25533A815323">
+<Column name="NR_OEM" id="8477C2C4-EACB-C5B1-D64E-BE278A6D94AF">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 15:38:47 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4EBFAA9-9BBD-7157-11FC-02EEF4BC00F3" referredColumn="AE273C15-A9D1-76ED-819A-79A8057344CE"/>
+</associations>
+</Column>
+<Column name="NR_ZAMOWIENIA" id="967A812C-B9FB-1C96-E82C-25533A815323">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:01:56 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -21,21 +36,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="1BB12688-F06D-563F-2BD5-6AAE9F7EAD28" referredColumn="717DD866-3446-20A7-5BE6-CD9FDF1645E2"/>
-</associations>
-</Column>
-<Column name="KOD_CZESCI" id="E5482448-5900-F184-9107-68FE3BC15FCF">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 23:04:37 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2255DE22-8BEA-6B1D-2DD7-3E74DCB01C39" referredColumn="5F69BBD0-47BB-1162-FF42-A2CF3D8508AF"/>
 </associations>
 </Column>
 <Column name="LP" id="E57E9F34-D738-8B80-36DC-64CDC8A734DC">
@@ -55,12 +55,35 @@
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT022</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3BFD62C-3F24-20C0-EE48-6832E18C40D0" name="POZYC_PK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 15:43:23 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8477C2C4-EACB-C5B1-D64E-BE278A6D94AF"/>
+<colUsage columnID="967A812C-B9FB-1C96-E82C-25533A815323"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E7C305E-804D-263A-B927-334C240F443D" name="POZYC_ZAMOW_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 17:20:52 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="967A812C-B9FB-1C96-E82C-25533A815323"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="A73D2E98-FB12-F9CC-FA73-8E81D7B1E636" name="POZYC_ZAMOW_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:01:56 UTC</createdTime>
@@ -71,14 +94,14 @@
 <colUsage columnID="967A812C-B9FB-1C96-E82C-25533A815323"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C6C4EB2F-0737-C76C-0EF1-C2B652EE1FB4" name="POZYC_CZESC_FK">
+<ind_PK_UK id="D4B27966-9B75-1032-7C86-4891DAB94CB5" name="POZYC_CZESC_FK">
 <createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 23:04:37 UTC</createdTime>
+<createdTime>2025-01-09 15:38:47 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E5482448-5900-F184-9107-68FE3BC15FCF"/>
+<colUsage columnID="8477C2C4-EACB-C5B1-D64E-BE278A6D94AF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

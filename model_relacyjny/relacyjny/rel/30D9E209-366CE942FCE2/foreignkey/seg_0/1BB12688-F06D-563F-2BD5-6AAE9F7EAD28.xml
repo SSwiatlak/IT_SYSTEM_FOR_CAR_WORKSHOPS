@@ -4,13 +4,13 @@
 <createdTime>2025-01-07 23:01:56 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <referredTableLongName>ZAMOWIENIE</referredTableLongName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 <referredTableID>8D5DD3D8-03A8-1553-331B-EB74C36A63C7</referredTableID>
 <keyObject>4E1472C8-E5F4-7066-63AE-FE6A081161D8</keyObject>
 <referredKeyID>4E1472C8-E5F4-7066-63AE-FE6A081161D8</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>NUMER_ZAMOWIENIA</refColNames>
-<transferable>true</transferable>
+<refColNames>NR_ZAMOWIENIA</refColNames>
+<transferable>false</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

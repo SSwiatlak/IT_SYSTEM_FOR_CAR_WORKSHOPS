@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="NUMER_ZAMOWIENIA" id="717DD866-3446-20A7-5BE6-CD9FDF1645E2">
+<Column name="NR_ZAMOWIENIA" id="717DD866-3446-20A7-5BE6-CD9FDF1645E2">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:25:29 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -45,7 +45,9 @@
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="UWAGI" id="B6E8489C-B823-7A89-6AE0-91EE0B34BF0F">
@@ -74,4 +76,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ZAMOW_CZY_WEWN_CHK" directorySegmentName="seg_0" id="5ED24399-08B4-5529-18A6-DA56D10DCD56">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 15:36:36 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<rule><![CDATA[CZY_WEWNETRZNE IN (0, 1)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

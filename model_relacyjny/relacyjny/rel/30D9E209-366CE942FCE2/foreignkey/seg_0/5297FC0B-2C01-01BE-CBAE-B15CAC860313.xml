@@ -9,8 +9,8 @@
 <keyObject>D3DF29A5-E0A6-9CD2-6EDA-42F58E656B13</keyObject>
 <referredKeyID>D3DF29A5-E0A6-9CD2-6EDA-42F58E656B13</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>NUMER_VIN</refColNames>
-<transferable>true</transferable>
+<refColNames>NR_VIN</refColNames>
+<transferable>false</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>
