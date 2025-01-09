@@ -20,18 +20,6 @@
 <ownDataTypeParameters>,12,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="UWAGI" id="BEE380D7-D92D-9113-4A7B-A2BC0E8244D4">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:23:30 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4000 CHAR</dataTypeSize>
-<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="NUMER_ZAMOWIENIA" id="74C0E670-A08E-6AFC-564D-D7A552559311">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 22:59:58 UTC</createdTime>
@@ -76,6 +64,28 @@
 <associations>
 <colAssociation fkAssociation="C2BD1B2F-48DB-B44D-FEDA-6C03AF49020F" referredColumn="FABA868A-CAC3-3554-B6D7-549B9B3CF525"/>
 </associations>
+</Column>
+<Column name="STATUS" id="F3CF85A5-5999-CF49-B4C8-14B290B7F2D8">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-09 13:29:34 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>91D13D0F-5F38-20D3-2C1A-25748CBF6E45</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UWAGI" id="BEE380D7-D92D-9113-4A7B-A2BC0E8244D4">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:23:30 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

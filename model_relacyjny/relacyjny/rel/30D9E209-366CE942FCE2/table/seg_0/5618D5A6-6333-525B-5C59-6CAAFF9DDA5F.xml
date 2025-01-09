@@ -19,37 +19,6 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DATA_PRZYJECIA" id="C6F98C8B-E7C1-F35C-AFB6-A82DD6241A3E">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:07:22 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DATA_WYDANIA" id="F94994F1-A2D5-1A7D-3FAB-17E122EB7B44">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:07:22 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="PRZEBIEG" id="4AD834FD-2726-EDD0-E340-A996B283BCCE">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:10:15 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="NUMER_VIN" id="50DCCF4A-F7C6-2B36-5B8A-610DAB0C062C">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:34:01 UTC</createdTime>
@@ -94,6 +63,37 @@
 <associations>
 <colAssociation fkAssociation="2A0225A0-6CD5-D486-9999-3620C6B63CB2" referredColumn="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
 </associations>
+</Column>
+<Column name="DATA_PRZYJECIA" id="C6F98C8B-E7C1-F35C-AFB6-A82DD6241A3E">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:07:22 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_WYDANIA" id="F94994F1-A2D5-1A7D-3FAB-17E122EB7B44">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:07:22 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRZEBIEG" id="4AD834FD-2726-EDD0-E340-A996B283BCCE">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:10:15 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

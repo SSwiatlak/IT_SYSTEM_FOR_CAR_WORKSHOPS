@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BB12688-F06D-563F-2BD5-6AAE9F7EAD28" containerWithKeyObject="EDE05CED-58E8-15CB-FC8B-63F35BC8C8B7" localFKIndex="A73D2E98-FB12-F9CC-FA73-8E81D7B1E636" name="POZZAM_ZAMOW_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BB12688-F06D-563F-2BD5-6AAE9F7EAD28" containerWithKeyObject="EDE05CED-58E8-15CB-FC8B-63F35BC8C8B7" localFKIndex="A73D2E98-FB12-F9CC-FA73-8E81D7B1E636" name="POZYC_ZAMOW_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:01:56 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

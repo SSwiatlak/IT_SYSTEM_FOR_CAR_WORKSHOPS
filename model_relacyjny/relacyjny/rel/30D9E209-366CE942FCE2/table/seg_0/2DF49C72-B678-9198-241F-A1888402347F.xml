@@ -8,26 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="POCZATEK_CZYNNOSCI" id="6E4F11DF-0E77-EE9A-4BE3-7E28E07F6351">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:32:42 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="KONIEC_CZYNNOSCI" id="5F44D1A0-1F1A-B9F1-CCA4-E7DB3FC48986">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 11:32:42 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="ID_CZYNNOSCI" id="DE51BD70-D81A-CEBB-7AFF-A8DA8A198B11">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:49:14 UTC</createdTime>
@@ -72,6 +52,26 @@
 <associations>
 <colAssociation fkAssociation="FE858A98-7C96-DCDE-A1A2-D997D7091F60" referredColumn="4BE33F17-5CD0-5A4E-78C4-AFA12CFF6D49"/>
 </associations>
+</Column>
+<Column name="POCZATEK_CZYNNOSCI" id="6E4F11DF-0E77-EE9A-4BE3-7E28E07F6351">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:32:42 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KONIEC_CZYNNOSCI" id="5F44D1A0-1F1A-B9F1-CCA4-E7DB3FC48986">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 11:32:42 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

@@ -40,7 +40,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="995360AD-0644-D6E0-FA69-FE681DA3252E" name="SKLZEZ_ZESPOL_FK">
+<ind_PK_UK id="995360AD-0644-D6E0-FA69-FE681DA3252E" name="CZLON_ZESPOL_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:43:23 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -50,7 +50,7 @@
 <colUsage columnID="0980B000-4641-894D-0CD7-D38A2505E7FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="356D4796-C09F-8709-0179-62BA9FCC0B21" name="SKLZES_PRACOW_FK">
+<ind_PK_UK id="356D4796-C09F-8709-0179-62BA9FCC0B21" name="CZLON_PRACOW_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:44:57 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

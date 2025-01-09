@@ -19,6 +19,21 @@
 <ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="RODZAJ" id="BE3F5ACD-EA74-02EF-7857-859BAE429F01">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 23:20:54 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C600398-2EB3-A1B5-B191-5E5785B8CA0D" referredColumn="F8EB4BEF-9A0D-A2B6-1C79-7EEC9645BDAB"/>
+</associations>
+</Column>
 <Column name="NAZWA" id="595B6C22-BA43-C17A-F876-6DF03FCA9FA8">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:31:27 UTC</createdTime>
@@ -41,21 +56,6 @@
 <dataTypeSize>4000 CHAR</dataTypeSize>
 <ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="RODZAJ" id="BE3F5ACD-EA74-02EF-7857-859BAE429F01">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 23:20:54 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="5C600398-2EB3-A1B5-B191-5E5785B8CA0D" referredColumn="F8EB4BEF-9A0D-A2B6-1C79-7EEC9645BDAB"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

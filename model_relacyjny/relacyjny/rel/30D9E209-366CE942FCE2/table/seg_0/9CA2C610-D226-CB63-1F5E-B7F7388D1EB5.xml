@@ -8,6 +8,21 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRZYJECIA" id="7BB69DE4-A988-0A41-D1B1-2B4E1495A735">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-07 12:52:00 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C007A98A-C4C2-D644-8A9F-8812B03EC987" referredColumn="6340B71D-CF8B-E267-CD69-481598F17930"/>
+</associations>
+</Column>
 <Column name="LOKALIZACJA" id="0459991B-2210-3F51-8124-2A15E29499D6">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:40:49 UTC</createdTime>
@@ -30,21 +45,6 @@
 <dataTypeSize>4000 CHAR</dataTypeSize>
 <ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_PRZYJECIA" id="7BB69DE4-A988-0A41-D1B1-2B4E1495A735">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 12:52:00 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="C007A98A-C4C2-D644-8A9F-8812B03EC987" referredColumn="6340B71D-CF8B-E267-CD69-481598F17930"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

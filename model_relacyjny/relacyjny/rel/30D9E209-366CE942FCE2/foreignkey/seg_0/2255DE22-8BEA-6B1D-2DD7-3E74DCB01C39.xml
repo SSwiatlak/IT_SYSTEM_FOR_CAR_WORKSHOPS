@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2255DE22-8BEA-6B1D-2DD7-3E74DCB01C39" containerWithKeyObject="EDE05CED-58E8-15CB-FC8B-63F35BC8C8B7" localFKIndex="C6C4EB2F-0737-C76C-0EF1-C2B652EE1FB4" name="POZZAM_CZESC_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2255DE22-8BEA-6B1D-2DD7-3E74DCB01C39" containerWithKeyObject="EDE05CED-58E8-15CB-FC8B-63F35BC8C8B7" localFKIndex="C6C4EB2F-0737-C76C-0EF1-C2B652EE1FB4" name="POZYC_CZESC_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:04:37 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
@@ -9,7 +9,7 @@
 <keyObject>BEB353FA-0399-164F-52C1-358B62A399AE</keyObject>
 <referredKeyID>BEB353FA-0399-164F-52C1-358B62A399AE</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_CZESCI</refColNames>
+<refColNames>KOD_CZESCI</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
