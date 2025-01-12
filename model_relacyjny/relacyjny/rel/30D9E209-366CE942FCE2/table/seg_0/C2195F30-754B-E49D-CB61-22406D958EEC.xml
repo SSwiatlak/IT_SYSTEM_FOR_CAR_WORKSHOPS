@@ -74,7 +74,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="UWAGI" id="BEE380D7-D92D-9113-4A7B-A2BC0E8244D4">
@@ -165,7 +166,7 @@
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-12 15:21:25 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
-<rule><![CDATA[STATUS IN ('O', 'W', 'Z', 'N')]]></rule>
+<rule><![CDATA[STATUS IN ('O', 'W', 'Z', 'N')]]></rule>
 </tableCheckConstraint>
 </tableCheckConstraints>
 </Table>

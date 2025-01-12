@@ -17,8 +17,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_PRACOWNIKv1_ID_PRACOWNIKA</notNullConstraintName>
 </Column>
 <Column name="NAZWISKO" id="36C40E9C-51D4-C413-A798-9C2DABB45864">
 <createdBy>wdzik</createdBy>
@@ -30,7 +31,6 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_PRACOWNIKv1_NAZWSIKO</notNullConstraintName>
 </Column>
 <Column name="IMIE" id="9E818731-24A8-3B16-5439-FE9C4A92CBED">
 <createdBy>wdzik</createdBy>
@@ -53,7 +53,6 @@
 <dataTypeSize>15 CHAR</dataTypeSize>
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NNC_PRACOWNIKv1_NR_TEL</notNullConstraintName>
 </Column>
 <Column name="ADRES_EMAIL" id="BEB68430-DF93-152D-1C6D-4CA2161A88B5">
 <createdBy>wdzik</createdBy>
