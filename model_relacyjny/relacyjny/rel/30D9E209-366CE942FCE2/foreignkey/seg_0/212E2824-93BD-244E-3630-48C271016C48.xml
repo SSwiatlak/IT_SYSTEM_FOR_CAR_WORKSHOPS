@@ -10,7 +10,7 @@
 <referredKeyID>6169F9F5-72E0-9592-FE1A-A6F86B6AFC00</referredKeyID>
 <mandatory>true</mandatory>
 <refColNames>ID_SPECJALIZACJI</refColNames>
-<transferable>true</transferable>
+<transferable>false</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

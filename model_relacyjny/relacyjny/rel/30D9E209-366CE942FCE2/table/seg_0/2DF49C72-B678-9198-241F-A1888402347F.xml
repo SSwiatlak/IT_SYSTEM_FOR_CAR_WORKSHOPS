@@ -73,6 +73,23 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ODPOWIDZIALNY" id="F1F4C9DA-6696-02C0-45B1-826CBE4F5B6C">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-12 15:56:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pracownik odpowiedzialny za wykonanie czynnosci w danym terminie.]]></commentInRDBMS>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2A1FD4E-1978-E086-337A-703E92176444" referredColumn="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="08E7D873-CB7E-6876-3BDD-C108ABF08F10" name="HARMON_PK">
@@ -105,6 +122,15 @@
 <colUsage columnID="90E5AB0D-A6A3-BAC6-DF09-A3DEFA778B17"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="C736BF33-6DE1-867C-C24D-A63D1D44E2D4" name="HARMON_PRACOW_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-12 16:00:03 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1F4C9DA-6696-02C0-45B1-826CBE4F5B6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="B499B5F3-3EA1-982B-AFC7-B7C99926B1B0" name="HARMON_ZESPOL_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:19:10 UTC</createdTime>
@@ -133,6 +159,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DE51BD70-D81A-CEBB-7AFF-A8DA8A198B11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA77135E-32A3-11A9-EBFC-5A3E2A148857" name="HARMON_PRACOW_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-12 15:56:36 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1F4C9DA-6696-02C0-45B1-826CBE4F5B6C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -10,7 +10,7 @@
 <referredKeyID>4D6833B4-8138-6528-0CCA-143DBC727698</referredKeyID>
 <mandatory>true</mandatory>
 <refColNames>ID_PRACOWNIKA</refColNames>
-<transferable>true</transferable>
+<transferable>false</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

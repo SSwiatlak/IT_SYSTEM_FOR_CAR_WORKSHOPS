@@ -24,10 +24,9 @@
 <createdTime>2025-01-07 12:41:55 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
-<domain>8A2DC118-F08E-1006-6CE1-997E9B2194C2</domain>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -81,11 +80,11 @@
 </ind_PK_UK>
 </indexes>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
-<tableCheckConstraint name="POJAZD_RODZAJ_CHK" directorySegmentName="seg_0" id="9A0E80CF-B1C7-D824-292F-736A015D1585">
+<tableCheckConstraint name="POJAZD_RODZ_CHK" directorySegmentName="seg_0" id="9A0E80CF-B1C7-D824-292F-736A015D1585">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 12:44:21 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
-<rule><![CDATA[RODZAJ_POJAZDU IN ('O', 'C', 'M')]]></rule>
+<rule><![CDATA[RODZAJ_POJAZDU IN ('O', 'C', 'M')]]></rule>
 </tableCheckConstraint>
 </tableCheckConstraints>
 </Table>

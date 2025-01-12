@@ -63,16 +63,17 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="56AA08D7-259B-69F2-60A8-8D3DAA3D291B" referredColumn="717DD866-3446-20A7-5BE6-CD9FDF1645E2"/>
+<colAssociation fkAssociation="0B035E9B-AAC1-7CA5-8439-207BFE8B7915" referredColumn="0DCB9014-99F7-CA6E-7ABC-CED9141D10A6"/>
 </associations>
 </Column>
 <Column name="STATUS" id="F3CF85A5-5999-CF49-B4C8-14B290B7F2D8">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-09 13:29:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Status czynnosci: O -  oczekujaca, W - w realizacji, Z - zrealizowana, N - niezrealizowana.]]></commentInRDBMS>
 <ownerDesignName>relacyjny</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<domain>91D13D0F-5F38-20D3-2C1A-25748CBF6E45</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -128,16 +129,6 @@
 <colUsage columnID="5E21F2D5-452B-547C-0449-690943B0BD5A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B4DE2C26-84E9-44E8-6A77-C309CEFADA40" name="CZYNN_ZAMOW_FK">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 22:59:58 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="74C0E670-A08E-6AFC-564D-D7A552559311"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="71B6A870-A2C0-38AC-FFBD-AB2DD82B114B" name="CZYNN_KSIAZK_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:30:41 UTC</createdTime>
@@ -158,5 +149,23 @@
 <colUsage columnID="EA06E861-28E8-D762-1F0E-326141FB5364"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="45D5AF21-48E9-5619-9156-78165F570930" name="CZYNNOSC_ZAMOW_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-12 15:17:07 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C0E670-A08E-6AFC-564D-D7A552559311"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CZYNN_STATUS_CHK" directorySegmentName="seg_0" id="25D18BE4-3403-2FA8-50C6-53D6EDA61491">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-12 15:21:25 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<rule><![CDATA[STATUS IN ('O', 'W', 'Z', 'N')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

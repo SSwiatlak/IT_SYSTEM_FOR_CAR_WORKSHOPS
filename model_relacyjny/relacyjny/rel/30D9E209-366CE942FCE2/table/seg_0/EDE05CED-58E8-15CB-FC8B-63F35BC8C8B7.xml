@@ -35,7 +35,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1BB12688-F06D-563F-2BD5-6AAE9F7EAD28" referredColumn="717DD866-3446-20A7-5BE6-CD9FDF1645E2"/>
+<colAssociation fkAssociation="0813987D-4735-00AE-064C-75804AAD699F" referredColumn="0DCB9014-99F7-CA6E-7ABC-CED9141D10A6"/>
 </associations>
 </Column>
 <Column name="LP" id="E57E9F34-D738-8B80-36DC-64CDC8A734DC">
@@ -84,16 +84,6 @@
 <colUsage columnID="967A812C-B9FB-1C96-E82C-25533A815323"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A73D2E98-FB12-F9CC-FA73-8E81D7B1E636" name="POZYC_ZAMOW_FK">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 23:01:56 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="967A812C-B9FB-1C96-E82C-25533A815323"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="D4B27966-9B75-1032-7C86-4891DAB94CB5" name="POZYC_CZESC_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-09 15:38:47 UTC</createdTime>
@@ -102,6 +92,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8477C2C4-EACB-C5B1-D64E-BE278A6D94AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED15C53B-FA5D-0F3F-61B7-D69CD5691812" name="POZYC_ZAMOW_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-12 15:17:28 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="967A812C-B9FB-1C96-E82C-25533A815323"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

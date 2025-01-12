@@ -52,6 +52,7 @@
 <Column name="PRZYJMUJACY" id="B7BA197E-7F4C-2A59-BA6B-E584FF3DAFC3">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 23:27:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id pracownika, ktory przyjmujacego pojazd do warsztatu]]></commentInRDBMS>
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,6 +89,7 @@
 <Column name="PRZEBIEG" id="4AD834FD-2726-EDD0-E340-A996B283BCCE">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:10:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Przebieg w km zanotowany podczas przyjecia pojazdu]]></commentInRDBMS>
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

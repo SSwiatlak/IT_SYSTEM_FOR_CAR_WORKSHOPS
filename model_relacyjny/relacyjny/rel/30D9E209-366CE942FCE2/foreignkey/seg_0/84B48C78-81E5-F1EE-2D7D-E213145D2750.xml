@@ -10,7 +10,7 @@
 <referredKeyID>F828FCFE-25DD-B2BD-C9D2-7A7EF2C0230F</referredKeyID>
 <mandatory>true</mandatory>
 <refColNames>ID_ZESPOLU</refColNames>
-<transferable>true</transferable>
+<transferable>false</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>
