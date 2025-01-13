@@ -16,9 +16,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CZLON_ID_ZES_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="84B48C78-81E5-F1EE-2D7D-E213145D2750" referredColumn="292908BA-2E13-8263-95BE-94D199F5C54C"/>
 </associations>
@@ -31,9 +32,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CZLON_ID_PRAC_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="316DA782-62D7-7319-F6F6-3CDE92F7085C" referredColumn="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
 </associations>

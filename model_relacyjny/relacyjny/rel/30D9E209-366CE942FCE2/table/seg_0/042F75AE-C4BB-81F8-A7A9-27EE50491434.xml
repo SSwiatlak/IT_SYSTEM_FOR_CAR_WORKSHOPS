@@ -15,8 +15,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="DATA_ZAMOWIENIA" id="A19D9AAE-C08F-0C20-AF49-8BAD91B45484">
@@ -28,6 +28,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ZAMOW_DATA_NN</notNullConstraintName>
 </Column>
 <Column name="STAN" id="6EB164E3-3204-E6EC-6F6D-4F05A3D119DA">
 <createdBy>wdzik</createdBy>
@@ -40,6 +41,7 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ZAMOW_STAN_NN</notNullConstraintName>
 </Column>
 <Column name="CZY_WEWNETRZNE" id="D5BF3DA1-0886-0B8C-5147-4A30717651F3">
 <createdBy>wdzik</createdBy>
@@ -52,6 +54,7 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ZAMOW_CZY_WEWN_NN</notNullConstraintName>
 </Column>
 <Column name="UWAGI" id="44E9421D-79B2-5369-AA5F-25E9CB68FA6E">
 <createdBy>wdzik</createdBy>
@@ -86,7 +89,7 @@
 <ownerDesignName>relacyjny</ownerDesignName>
 <rule><![CDATA[STAN IN ('N', 'O', 'Z', 'A')]]></rule>
 </tableCheckConstraint>
-<tableCheckConstraint name="ZAMOW_CZY_WEWN_CHK" directorySegmentName="seg_0" id="5414DCEA-7030-3D2D-AC90-ED1249EBE9D9">
+<tableCheckConstraint name="ZAMOW_WEWN_CHK" directorySegmentName="seg_0" id="5414DCEA-7030-3D2D-AC90-ED1249EBE9D9">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-12 15:24:31 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

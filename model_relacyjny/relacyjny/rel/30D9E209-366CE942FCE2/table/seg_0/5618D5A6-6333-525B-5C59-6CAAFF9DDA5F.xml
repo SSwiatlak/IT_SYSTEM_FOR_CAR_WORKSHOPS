@@ -17,7 +17,12 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KSIAZ_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KSIAZ_ID_TRG</autoIncrementTriggerName>
 </Column>
 <Column name="NR_VIN" id="50DCCF4A-F7C6-2B36-5B8A-610DAB0C062C">
 <createdBy>wdzik</createdBy>
@@ -30,6 +35,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>KSIAZ_NR_VIN_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="5297FC0B-2C01-01BE-CBAE-B15CAC860313" referredColumn="40D1EF56-6111-9573-198F-71389EF7FE84"/>
 </associations>
@@ -45,6 +51,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>KSIAZ_ID_KL_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="900356B3-227E-A9F6-ECA8-0DDC4BF3DA07" referredColumn="EAAA4915-4D44-F6B7-07FA-2B85B8F89B87"/>
 </associations>
@@ -61,6 +68,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>KSIAZ_PRZYJ_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="2A0225A0-6CD5-D486-9999-3620C6B63CB2" referredColumn="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
 </associations>
@@ -74,6 +82,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>KSIAZ_DATA_NN</notNullConstraintName>
 </Column>
 <Column name="DATA_WYDANIA" id="F94994F1-A2D5-1A7D-3FAB-17E122EB7B44">
 <createdBy>wdzik</createdBy>
@@ -96,6 +105,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>KSIAZ_PRZEB_NN</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

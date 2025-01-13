@@ -14,9 +14,9 @@
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NAZWA" id="6DF6D1FD-6618-E4D7-D843-ABEAE739F0F3">
@@ -29,6 +29,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>SPECJA_NAZWA_NN</notNullConstraintName>
 </Column>
 <Column name="OPIS" directorySegmentName="seg_0" id="44E28F59-0AB4-C800-54EC-99737BF4FCFC">
 <createdBy>wdzik</createdBy>
@@ -44,7 +45,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6169F9F5-72E0-9592-FE1A-A6F86B6AFC00" name="SPEC_PK">
+<ind_PK_UK id="6169F9F5-72E0-9592-FE1A-A6F86B6AFC00" name="SPECJA_PK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 10:44:05 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

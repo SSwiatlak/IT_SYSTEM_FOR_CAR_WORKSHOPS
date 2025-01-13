@@ -8,6 +8,17 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RODZAJU" id="3B5170CA-7398-FE89-EBC5-6D2B9CF3E8E0">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-12 22:57:51 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="NAZWA" id="F8EB4BEF-9A0D-A2B6-1C79-7EEC9645BDAB">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-07 11:31:37 UTC</createdTime>
@@ -39,6 +50,16 @@
 <ownerDesignName>relacyjny</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B5170CA-7398-FE89-EBC5-6D2B9CF3E8E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE5572C6-E183-9A74-745B-E7A559B43F04" name="RODZST_NAZWA_UK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-13 10:49:06 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F8EB4BEF-9A0D-A2B6-1C79-7EEC9645BDAB"/>

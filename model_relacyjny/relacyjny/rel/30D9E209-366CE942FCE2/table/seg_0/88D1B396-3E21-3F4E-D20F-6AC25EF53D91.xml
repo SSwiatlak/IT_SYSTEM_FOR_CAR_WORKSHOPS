@@ -21,6 +21,31 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ZESPOL_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ZESPOL_ID_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="NAZWA" id="37A33D00-E7EC-4085-7B82-CB03AF20F2E9">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-13 10:44:39 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UWAGI" id="0C4FAF25-4E45-D4A8-4C5D-78CBB9187DAE">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-13 10:44:56 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -33,6 +58,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="292908BA-2E13-8263-95BE-94D199F5C54C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD35C36E-04D8-D960-883B-26D8149B398B" name="ZESPOL_NAZWA_UK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-13 10:57:38 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A33D00-E7EC-4085-7B82-CB03AF20F2E9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

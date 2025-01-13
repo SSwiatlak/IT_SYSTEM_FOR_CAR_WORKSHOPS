@@ -38,6 +38,7 @@
 <dataTypeSize>300 CHAR</dataTypeSize>
 <ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>USZKOD_LOKAL_NN</notNullConstraintName>
 </Column>
 <Column name="OPIS" id="9EDD15E7-F75E-DD13-F5AC-632000FFEB68">
 <createdBy>wdzik</createdBy>

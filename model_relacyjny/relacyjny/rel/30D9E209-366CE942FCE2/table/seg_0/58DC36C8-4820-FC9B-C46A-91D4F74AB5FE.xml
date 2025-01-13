@@ -16,9 +16,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>SPECPR_ID_PR_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="65253726-656C-60B7-9BA8-2EB53841F349" referredColumn="2FAC376E-2FF5-5108-044F-85DAD9B7417A"/>
 </associations>
@@ -29,11 +30,12 @@
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>SPECPR_ID_SP_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="212E2824-93BD-244E-3630-48C271016C48" referredColumn="A028586B-C12F-E204-190E-5208D3C8FCD4"/>
 </associations>

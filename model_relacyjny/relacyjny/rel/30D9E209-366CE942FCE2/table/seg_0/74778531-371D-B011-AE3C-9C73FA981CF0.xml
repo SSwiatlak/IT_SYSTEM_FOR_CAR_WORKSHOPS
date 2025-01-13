@@ -15,23 +15,23 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RODZAJ" id="BE3F5ACD-EA74-02EF-7857-859BAE429F01">
+<Column name="RODZAJ" id="7BA192BE-1EB4-0208-6470-9E837C45C9DF">
 <createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 23:20:54 UTC</createdTime>
+<createdTime>2025-01-12 22:58:09 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5C600398-2EB3-A1B5-B191-5E5785B8CA0D" referredColumn="F8EB4BEF-9A0D-A2B6-1C79-7EEC9645BDAB"/>
+<colAssociation fkAssociation="5C600398-2EB3-A1B5-B191-5E5785B8CA0D" referredColumn="3B5170CA-7398-FE89-EBC5-6D2B9CF3E8E0"/>
 </associations>
 </Column>
 <Column name="NAZWA" id="595B6C22-BA43-C17A-F876-6DF03FCA9FA8">
@@ -44,6 +44,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>STANOW_NAZWA_NN</notNullConstraintName>
 </Column>
 <Column name="OPIS" id="4CD380EB-4F8B-70D8-75FD-FF66C9879641">
 <createdBy>wdzik</createdBy>
@@ -70,13 +71,23 @@
 <colUsage columnID="4BE33F17-5CD0-5A4E-78C4-AFA12CFF6D49"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="298A0F26-7E09-C001-A81F-304274327F68" name="STANO_NAZWA_UN">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-13 11:37:50 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="595B6C22-BA43-C17A-F876-6DF03FCA9FA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="1FEA0E4A-F724-56EE-8CAD-39C94DD8188B" name="STANOW_RODZST_FK_IDX">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-09 17:09:20 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BE3F5ACD-EA74-02EF-7857-859BAE429F01"/>
+<colUsage columnID="7BA192BE-1EB4-0208-6470-9E837C45C9DF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="7A27B882-EFD9-6972-5773-30B8334E5C00" name="STANOW_RODZST_FK">
@@ -86,7 +97,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BE3F5ACD-EA74-02EF-7857-859BAE429F01"/>
+<colUsage columnID="7BA192BE-1EB4-0208-6470-9E837C45C9DF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

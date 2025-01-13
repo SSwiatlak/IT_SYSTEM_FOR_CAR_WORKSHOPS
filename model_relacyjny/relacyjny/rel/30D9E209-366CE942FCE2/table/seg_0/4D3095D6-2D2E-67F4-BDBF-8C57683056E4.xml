@@ -19,7 +19,10 @@
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KLIENT_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KLIENT_ID_TRG</autoIncrementTriggerName>
 </Column>
 <Column name="NAZWISKO" id="36C40E9C-51D4-C413-A798-9C2DABB45864">
 <createdBy>wdzik</createdBy>
@@ -31,6 +34,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>KLIENT_NAZW_NN</notNullConstraintName>
 </Column>
 <Column name="IMIE" id="9E818731-24A8-3B16-5439-FE9C4A92CBED">
 <createdBy>wdzik</createdBy>
@@ -42,6 +46,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>KLIENT_IMIE_NN</notNullConstraintName>
 </Column>
 <Column name="NR_TELEFONU" id="92D53FC5-25ED-EE57-AE14-4AD8BCCB0EC2">
 <createdBy>wdzik</createdBy>
@@ -53,6 +58,7 @@
 <dataTypeSize>15 CHAR</dataTypeSize>
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>KLIENT_NR_TEL_NN</notNullConstraintName>
 </Column>
 <Column name="ADRES_EMAIL" id="BEB68430-DF93-152D-1C6D-4CA2161A88B5">
 <createdBy>wdzik</createdBy>

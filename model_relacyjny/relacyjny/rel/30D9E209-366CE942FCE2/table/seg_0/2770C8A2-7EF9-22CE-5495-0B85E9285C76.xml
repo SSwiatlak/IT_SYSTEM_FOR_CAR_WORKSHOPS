@@ -21,6 +21,8 @@
 <identityColumn>true</identityColumn>
 <autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>PRACOW_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>PRACOW_ID_TRG</autoIncrementTriggerName>
 </Column>
 <Column name="NAZWISKO" id="BA1D010F-C735-217F-9B3E-741824DCA97B">
 <createdBy>wdzik</createdBy>
@@ -32,6 +34,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PRACOW_NAZW_NN</notNullConstraintName>
 </Column>
 <Column name="IMIE" id="0CB70C72-25ED-56FE-D63F-BD99CCF458A2">
 <createdBy>wdzik</createdBy>
@@ -43,6 +46,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PRACOW_IMIE_NN</notNullConstraintName>
 </Column>
 <Column name="DRUGIE_IMIE" directorySegmentName="seg_0" id="39B3601A-9992-4785-DB59-369CDE93D5CE">
 <createdBy>wdzik</createdBy>
@@ -78,6 +82,7 @@
 <dataTypeSize>15 CHAR</dataTypeSize>
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PRACOW_NR_TEL_NN</notNullConstraintName>
 </Column>
 <Column name="ADRES_EMAIL" id="5BD67DF2-471C-5CD8-F547-E2E9CBA4AF89">
 <createdBy>wdzik</createdBy>

@@ -18,7 +18,11 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>12</dataTypePrecision>
 <ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>CZYNN_ID_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>CZYNN_ID_TRG</autoIncrementTriggerName>
 </Column>
 <Column name="ID_WIZYTY" id="5E21F2D5-452B-547C-0449-690943B0BD5A">
 <createdBy>wdzik</createdBy>
@@ -31,6 +35,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CZYNN_ID_WIZ_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="8A9DAF88-482E-653C-91A8-0B1C59FB589F" referredColumn="6340B71D-CF8B-E267-CD69-481598F17930"/>
 </associations>
@@ -42,10 +47,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>6 CHAR</dataTypeSize>
+<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CZYNN_KOD_US_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="C2BD1B2F-48DB-B44D-FEDA-6C03AF49020F" referredColumn="2AE682FF-8543-C522-45C8-E9975FC0E87C"/>
 </associations>
@@ -58,7 +64,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
+<dataTypeSize>12 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -69,14 +75,16 @@
 <Column name="STATUS" id="F3CF85A5-5999-CF49-B4C8-14B290B7F2D8">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-09 13:29:34 UTC</createdTime>
-<commentInRDBMS><![CDATA[Status czynnosci: O -  oczekujaca, W - w realizacji, Z - zrealizowana, N - niezrealizowana.]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Status czynnosci: O - oczekujaca, W - w realizacji, Z - zrealizowana, N - niezrealizowana.]]></commentInRDBMS>
 <ownerDesignName>relacyjny</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1 CHAR</dataTypeSize>
+<defaultValue>O</defaultValue>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CZYNN_STATUS_NN</notNullConstraintName>
 </Column>
 <Column name="UWAGI" id="BEE380D7-D92D-9113-4A7B-A2BC0E8244D4">
 <createdBy>wdzik</createdBy>

@@ -19,6 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POZYC_NR_OEM_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="B4EBFAA9-9BBD-7157-11FC-02EEF4BC00F3" referredColumn="AE273C15-A9D1-76ED-819A-79A8057344CE"/>
 </associations>
@@ -30,10 +31,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
+<dataTypeSize>12 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POZYC_NR_ZAM_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="0813987D-4735-00AE-064C-75804AAD699F" referredColumn="0DCB9014-99F7-CA6E-7ABC-CED9141D10A6"/>
 </associations>
@@ -48,6 +50,7 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,4,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POZYC_LP_NN</notNullConstraintName>
 </Column>
 <Column name="ILOSC" id="449F6494-DE75-5174-0011-CA5D9A787DE5">
 <createdBy>wdzik</createdBy>
@@ -60,6 +63,7 @@
 <dataTypeScale>3</dataTypeScale>
 <ownDataTypeParameters>,7,3</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>POZYC_ILOSC_NN</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

@@ -19,6 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HARMON_ID_CZYN_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="2774DF37-2615-4811-19C6-94E1B681DD40" referredColumn="DE31D68B-84F9-18E4-0F6C-641A483B01BC"/>
 </associations>
@@ -34,6 +35,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HARMON_ID_ZESP_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="A798E2DE-DE37-9A15-FECF-0104F9BD95B0" referredColumn="292908BA-2E13-8263-95BE-94D199F5C54C"/>
 </associations>
@@ -45,10 +47,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
+<dataTypeSize>5 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HARMON_NR_STAN_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="FE858A98-7C96-DCDE-A1A2-D997D7091F60" referredColumn="4BE33F17-5CD0-5A4E-78C4-AFA12CFF6D49"/>
 </associations>
@@ -62,6 +65,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HARMON_POCZATEK_NN</notNullConstraintName>
 </Column>
 <Column name="KONIEC_CZYNNOSCI" id="5F44D1A0-1F1A-B9F1-CCA4-E7DB3FC48986">
 <createdBy>wdzik</createdBy>
@@ -72,6 +76,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HARMON_KONIEC_NN</notNullConstraintName>
 </Column>
 <Column name="ODPOWIDZIALNY" id="F1F4C9DA-6696-02C0-45B1-826CBE4F5B6C">
 <createdBy>wdzik</createdBy>

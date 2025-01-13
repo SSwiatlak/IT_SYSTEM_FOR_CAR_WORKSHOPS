@@ -15,8 +15,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>6 CHAR</dataTypeSize>
-<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NAZWA" id="FABA868A-CAC3-3554-B6D7-549B9B3CF525">
@@ -29,6 +29,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>USLUGA_NAZWA_NN</notNullConstraintName>
 </Column>
 <Column name="OPIS" id="9AA5B42E-E166-6B1B-A734-7815658361A8">
 <createdBy>wdzik</createdBy>
@@ -53,6 +54,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2AE682FF-8543-C522-45C8-E9975FC0E87C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECC11839-EC97-0862-1505-D15E8248F175" name="USLUGA_NAZWA_UK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-13 11:37:23 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FABA868A-CAC3-3554-B6D7-549B9B3CF525"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

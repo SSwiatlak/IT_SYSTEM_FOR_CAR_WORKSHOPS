@@ -29,6 +29,7 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CZESC_NAZWA_NN</notNullConstraintName>
 </Column>
 <Column name="OPIS" id="30558B8D-EAB0-42E7-4ACB-624DC7343725">
 <createdBy>wdzik</createdBy>
