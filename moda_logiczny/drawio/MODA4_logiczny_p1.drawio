@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
   <diagram name="Strona-1" id="seSF8aowuh4jenQuSHEg">
-    <mxGraphModel dx="724" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,7 +370,7 @@
         <mxCell id="tVaWXpuyIT2xgNXq6bq_-262" value="Uszkodzenie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="950" y="350" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tVaWXpuyIT2xgNXq6bq_-263" value="&lt;span&gt;&lt;/span&gt;&lt;div&gt;lokalizacja: Varchar(300)&lt;/div&gt;opis: Varchar(4000) [0..1]&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tVaWXpuyIT2xgNXq6bq_-262" vertex="1">
+        <mxCell id="tVaWXpuyIT2xgNXq6bq_-263" value="&lt;span&gt;&lt;/span&gt;&lt;div&gt;lokalizacja: Varchar(50)&lt;/div&gt;opis: Varchar(4000) [0..1]&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tVaWXpuyIT2xgNXq6bq_-262" vertex="1">
           <mxGeometry y="26" width="180" height="44" as="geometry" />
         </mxCell>
         <mxCell id="tVaWXpuyIT2xgNXq6bq_-264" value="&lt;p style=&quot;line-height: 100%; font-size: 11px; padding-right: 4px; padding-left: 4px; padding-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;dotyczy&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;background-color: initial; font-size: 11px;&quot;&gt;uszkodzeń&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/i&gt;&lt;i style=&quot;background-color: initial; font-size: 11px;&quot;&gt;zaobserwowa&lt;/i&gt;&lt;i style=&quot;background-color: initial; font-size: 11px;&quot;&gt;nych przez&lt;br style=&quot;font-size: 11px;&quot;&gt;pracownika serwisu&lt;/i&gt;&lt;/p&gt;" style="shape=note;size=16;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=11;fontColor=#666666;align=left;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
@@ -404,7 +404,7 @@
         <mxCell id="tVaWXpuyIT2xgNXq6bq_-270" value="Zamówienie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="tVaWXpuyIT2xgNXq6bq_-268" vertex="1">
           <mxGeometry width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="tVaWXpuyIT2xgNXq6bq_-271" value="numerZamówienia: Varchar(30) {unique}&lt;br&gt;dataZamówienia: Date&lt;br&gt;stan: StanRealizacji&lt;div&gt;czyWewnętrzne: Bool&lt;/div&gt;&lt;div&gt;uwagi: Varchar(4000) [0..1]&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;span&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tVaWXpuyIT2xgNXq6bq_-268" vertex="1">
+        <mxCell id="tVaWXpuyIT2xgNXq6bq_-271" value="numerZamówienia: Varchar(12) {unique}&lt;br&gt;dataZamówienia: Date&lt;br&gt;stan: StanRealizacji&lt;div&gt;czyWewnętrzne: Bool&lt;/div&gt;&lt;div&gt;uwagi: Varchar(4000) [0..1]&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;span&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tVaWXpuyIT2xgNXq6bq_-268" vertex="1">
           <mxGeometry y="26" width="240" height="84" as="geometry" />
         </mxCell>
         <mxCell id="tVaWXpuyIT2xgNXq6bq_-272" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=none;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="tVaWXpuyIT2xgNXq6bq_-246" target="tVaWXpuyIT2xgNXq6bq_-270" edge="1">
@@ -500,10 +500,10 @@
         <mxCell id="tVaWXpuyIT2xgNXq6bq_-288" value="&lt;p style=&quot;line-height: 100%; font-size: 10px; padding-right: 4px; padding-left: 8px; padding-top: 0px;&quot;&gt;&lt;i&gt;dane do EDI&lt;/i&gt;&lt;/p&gt;" style="shape=note;size=16;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=11;fontColor=#666666;align=left;" parent="1" vertex="1">
           <mxGeometry x="570" y="610" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DxD8LEMhDQ8LuKl5P_R3-2" value="Zespół" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DxD8LEMhDQ8LuKl5P_R3-2" value="Zespół" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="270" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DxD8LEMhDQ8LuKl5P_R3-3" value="&lt;span&gt;&lt;/span&gt;nazwa: Varchar(30) {unique}&lt;div&gt;opis: Varchar(4000) [0..1]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DxD8LEMhDQ8LuKl5P_R3-2">
+        <mxCell id="DxD8LEMhDQ8LuKl5P_R3-3" value="&lt;span&gt;&lt;/span&gt;nazwa: Varchar(30) {unique}&lt;div&gt;opis: Varchar(4000) [0..1]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DxD8LEMhDQ8LuKl5P_R3-2" vertex="1">
           <mxGeometry y="26" width="170" height="54" as="geometry" />
         </mxCell>
       </root>
