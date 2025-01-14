@@ -34,6 +34,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>ZESPOL_NAZWA_NN</notNullConstraintName>
 </Column>
 <Column name="UWAGI" id="0C4FAF25-4E45-D4A8-4C5D-78CBB9187DAE">
 <createdBy>wdzik</createdBy>

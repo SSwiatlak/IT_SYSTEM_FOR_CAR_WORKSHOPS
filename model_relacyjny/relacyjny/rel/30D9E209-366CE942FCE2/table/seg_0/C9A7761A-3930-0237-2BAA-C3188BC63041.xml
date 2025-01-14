@@ -29,6 +29,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RODZST_NAZWA_NN</notNullConstraintName>
 </Column>
 <Column name="OPIS" id="FEBA177A-EBAC-3202-BA91-5A7FA77201FD">
 <createdBy>wdzik</createdBy>

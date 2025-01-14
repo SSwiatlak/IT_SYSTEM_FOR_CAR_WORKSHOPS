@@ -1,0 +1,18 @@
+NR_STANOWISKA,RODZAJ,NAZWA,OPIS
+POD01,POD,Podnośnik 1,Podnośnik uniwersalny dla różnych napraw.
+POD02,POD,Podnośnik 2,Podnośnik uniwersalny dla różnych napraw.
+POD03,POD,Podnośnik 3,Podnośnik uniwersalny dla różnych napraw.
+POD04,POD,Podnośnik 4,Stanowisko z podnośnikiem do wymiany kół i konserwacji.
+DIA01,DIA,Diagnostyka 1,Stanowisko diagnostyczne z komputerem do analizy usterek.
+DIA02,DIA,Diagnostyka 2,Diagnostyka komputerowa z zaawansowanym sprzętem pomiarowym.
+WUL01,WUL,Wulkanizacja 1,Stanowisko wymiany i naprawy opon.
+WUL02,WUL,Wulkanizacja 2,Wyważanie i montaż kół.
+BLH01,BLH,Blacharnia 1,Naprawa blacharska, prostowanie karoserii.
+LAK01,LAK,Lakiernia 1,Lakierowanie elementów nadwozia.
+KLI01,KLI,Serwis klimatyzacji 1,Naprawa i napełnianie układu klimatyzacji.
+GEO01,GEO,Geometria 1,Ustawianie geometrii kół i regulacja zawieszenia.
+ELE01,ELE,Elektromechanika 1,Naprawy instalacji elektrycznej i mechanicznej.
+ELE02,ELE,Elektromechanika 2,Diagnostyka i naprawa alternatorów i rozruszników.
+MYJ01,MYJ,Myjnia 1,Mycie zewnętrzne samochodów.
+MYJ02,MYJ,Myjnia 2,Czyszczenie wnętrz i tapicerki.
+

@@ -1,0 +1,21 @@
+NAZWISKO;IMIE;NR_TELEFONU;ADRES_EMAIL;UWAGI
+Kowalski;Jan;500123456;jan.kowalski1990@gmail.com;
+Nowak;Anna;600234567;anna.nowak@poczta.onet.pl;Kontaktować się mailowo lub sms.
+Wiśniewski;Michał;502345678;mwisniewski95@gmail.com;
+Nowakowski;Robert;513345678;;
+Lewandowski;Krzysztof;507789012;;
+Zielińska;Ewa;603456789;ewa.zielinska@mail.com;
+Szymański;Paweł;504567890;pawels02145@wp.pl;
+Wójcik;Karolina;505678901;;
+Kaczmarek;Jacek;508890123;;
+Jabłoński;Tomasz;509901234;tomasz.jablonski@outlook.com;
+Król;Monika;510012345;monika.kol@wp.com;
+Piotrowski;Adam;511123456;;
+Adamczak;Agnieszka;412234567;agaadamczak@tlen.pl;
+Kowalczyk;Kacper;514456789;kowalczyk123k@gmail.com;
+Kowalski;Jakub;515567890;jakub.kowalski@poczta.fm;
+Guzik;Jan;716678901;guziczek1985@wp.pl;
+Stolarz;Łukasz;517789012;;
+Zawisza;Andrzej;518890123;andrzej.zawisza@interia.pl;
+Malinowska;Dorota;719901234;dorota.malinowska@poczta.onet.pl;
+Ławniczak;Filip;520012345;;

@@ -30,6 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>STANOW_RODZAJ_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="5C600398-2EB3-A1B5-B191-5E5785B8CA0D" referredColumn="3B5170CA-7398-FE89-EBC5-6D2B9CF3E8E0"/>
 </associations>
@@ -71,7 +72,7 @@
 <colUsage columnID="4BE33F17-5CD0-5A4E-78C4-AFA12CFF6D49"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="298A0F26-7E09-C001-A81F-304274327F68" name="STANO_NAZWA_UN">
+<ind_PK_UK id="298A0F26-7E09-C001-A81F-304274327F68" name="STANOW_NAZWA_UK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-13 11:37:50 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

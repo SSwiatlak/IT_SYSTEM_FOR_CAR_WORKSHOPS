@@ -158,7 +158,7 @@
 <colUsage columnID="EA06E861-28E8-D762-1F0E-326141FB5364"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="45D5AF21-48E9-5619-9156-78165F570930" name="CZYNNOSC_ZAMOW_FK">
+<ind_PK_UK id="45D5AF21-48E9-5619-9156-78165F570930" name="CZYNN_ZAMOW_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-12 15:17:07 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>

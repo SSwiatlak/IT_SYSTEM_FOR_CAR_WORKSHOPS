@@ -1,0 +1,26 @@
+KOD_USLUGI;NAZWA;OPIS
+W_KH_P;Wymiana klocków hamulcowych przód;
+W_KH_T;Wymiana klocków hamulcowych tył;
+W_TH_P;Wymiana tarcz hamulcowych przód;
+W_TH_P;Wymiana tarcz hamulcowych tył;
+W_O_SIL;Wymiana oleju silnikowego;Wymiana zawiera wymianę filtra oleju.
+W_O_SB;Wymiana oleju skrzyni biegów;Jeżeli występuje, wymienia się też filtr.
+W_P_CH;Wymiana płynu chłodniczego;
+W_C_AC;Wymiana czynnika klimatyzacji;
+W_OP;Wymiana opon;
+WYW_K;Wyważenie kół;
+N_OP;Naprawa opony;
+P_FEL;Prostowanie felgi;
+W_KDK;Wymiana końcówek drążków kierowniczych;
+W_WAH_P;Wymiana wahacza przód;
+W_WAH_T;Wymiana wahacza tył;
+W_U_PZAW;Wymiana uszczelki pokrywy zaworów;
+R_L_Z;Regulacja luzów zaworowych;
+D_ZAW;Diagnostyka zawieszenia;
+D_BL;Diagnostyka błędu komputera;
+N_ECU;Naprawa komputera silnika;
+W_P_P;Wymiana pompy paliwowej;
+W_UPG;Wymiana uszczelki pod głowicą;W ramach usługi wykonuje się planowanie głowicy.
+W_PROG;Wymiana progu;
+LAK_EL_D;Lakierowanie dużego elementu;Elementy takie jak maska, drzwi, dach.
+LAK_EL_M;Lakierowanie małego elementu;Elementy takie jak obudowa lusterka, klamka, spoiler.
