@@ -1,11 +1,13 @@
--- ALTER SESSION SET NLS_NUMERIC_CHARACTERS = '. ';
+--ALTER SESSION SET NLS_NUMERIC_CHARACTERS = '. ';
+--CREATE TABLE XML_ZAMOWIENIA(XML_CONTENT XMLTYPE);
 
+--INSERT INTO XML_ZAMOWIENIA
 SELECT XMLRoot(
 XMLElement("ZAMOWIENIA",
   XMLAttributes(
     'http://www.moda4.com' AS "xmlns",
     'http://www.w3.org/2001/XMLSchema-instance' AS "xmlns:xsi",
-    'http://www.moda4.com projekt.xsd' AS "xsi:schemaLocation"
+    'http://www.moda4.com my_schema.xsd' AS "xsi:schemaLocation"
   ),
   XMLAgg(
     XMLElement("ZAMOWIENIE",
@@ -41,3 +43,9 @@ LEFT JOIN CZYNNOSC C ON P.ID_CZYNNOSCI = C.ID_CZYNNOSCI
 LEFT JOIN KSIAZKA_SERWISOWA K ON C.ID_WIZYTY = K.ID_WIZYTY
 LEFT JOIN POJAZD POJ ON K.NR_VIN = POJ.NR_VIN
 GROUP BY Z.NR_ZAMOWIENIA, Z.DATA_ZAMOWIENIA;
+
+
+--SELECT XMLIsValid(XML_CONTENT,'my_schema.xsd') AS IS_VALID
+--FROM XML_ZAMOWIENIA;
+
+--DROP TABLE XML_ZAMOWIENIA PURGE;
