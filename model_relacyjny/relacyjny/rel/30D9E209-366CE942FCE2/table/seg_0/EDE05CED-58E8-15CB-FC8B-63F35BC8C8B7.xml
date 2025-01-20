@@ -65,6 +65,22 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>POZYC_ILOSC_NN</notNullConstraintName>
 </Column>
+<Column name="ID_CZYNNOSCI" id="87318DC9-F46C-F98C-DCBE-D9BEEEE82D9D">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-19 17:07:37 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22940138-12C7-3127-C6AF-8A2C648C522C" referredColumn="DE31D68B-84F9-18E4-0F6C-641A483B01BC"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D3BFD62C-3F24-20C0-EE48-6832E18C40D0" name="POZYC_PK">
@@ -88,6 +104,15 @@
 <colUsage columnID="967A812C-B9FB-1C96-E82C-25533A815323"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="BA5B215B-94CD-9111-A06B-F71D36CE5C11" name="POZYC_CZYNN_FK_IDX">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-19 17:12:16 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87318DC9-F46C-F98C-DCBE-D9BEEEE82D9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="D4B27966-9B75-1032-7C86-4891DAB94CB5" name="POZYC_CZESC_FK">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-09 15:38:47 UTC</createdTime>
@@ -106,6 +131,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="967A812C-B9FB-1C96-E82C-25533A815323"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BE7D48B-5711-A51A-3521-4F6133761577" name="POZYC_CZYNN_FK">
+<createdBy>wdzik</createdBy>
+<createdTime>2025-01-19 17:07:37 UTC</createdTime>
+<ownerDesignName>relacyjny</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87318DC9-F46C-F98C-DCBE-D9BEEEE82D9D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

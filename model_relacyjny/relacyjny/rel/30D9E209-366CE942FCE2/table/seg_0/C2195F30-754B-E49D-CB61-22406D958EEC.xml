@@ -32,7 +32,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>CZYNN_ID_WIZ_NN</notNullConstraintName>
@@ -48,28 +48,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>CZYNN_KOD_US_NN</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="C2BD1B2F-48DB-B44D-FEDA-6C03AF49020F" referredColumn="2AE682FF-8543-C522-45C8-E9975FC0E87C"/>
-</associations>
-</Column>
-<Column name="NR_ZAMOWIENIA" id="74C0E670-A08E-6AFC-564D-D7A552559311">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-07 22:59:58 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>12 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0B035E9B-AAC1-7CA5-8439-207BFE8B7915" referredColumn="0DCB9014-99F7-CA6E-7ABC-CED9141D10A6"/>
 </associations>
 </Column>
 <Column name="STATUS" id="F3CF85A5-5999-CF49-B4C8-14B290B7F2D8">
@@ -116,9 +100,6 @@
 <createdTime>2025-01-09 17:22:40 UTC</createdTime>
 <ownerDesignName>relacyjny</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="74C0E670-A08E-6AFC-564D-D7A552559311"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A90BED06-9C53-9D48-7EBA-279B3B980520" name="CZYNN_USLUGA_FK_IDX">
 <createdBy>wdzik</createdBy>
@@ -156,16 +137,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EA06E861-28E8-D762-1F0E-326141FB5364"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="45D5AF21-48E9-5619-9156-78165F570930" name="CZYNN_ZAMOW_FK">
-<createdBy>wdzik</createdBy>
-<createdTime>2025-01-12 15:17:07 UTC</createdTime>
-<ownerDesignName>relacyjny</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="74C0E670-A08E-6AFC-564D-D7A552559311"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

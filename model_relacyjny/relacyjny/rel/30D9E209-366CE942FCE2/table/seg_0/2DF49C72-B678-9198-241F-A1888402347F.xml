@@ -78,7 +78,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>HARMON_KONIEC_NN</notNullConstraintName>
 </Column>
-<Column name="ODPOWIDZIALNY" id="F1F4C9DA-6696-02C0-45B1-826CBE4F5B6C">
+<Column name="ODPOWIEDZIALNY" id="F1F4C9DA-6696-02C0-45B1-826CBE4F5B6C">
 <createdBy>wdzik</createdBy>
 <createdTime>2025-01-12 15:56:36 UTC</createdTime>
 <commentInRDBMS><![CDATA[Pracownik odpowiedzialny za wykonanie czynnosci w danym terminie.]]></commentInRDBMS>
